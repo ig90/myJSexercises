@@ -1,0 +1,35 @@
+/*
+html{
+	box-sizing: border-box;
+} 
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+*/
+#container{
+  position: relative;
+  height: 600px; 
+  border: 1px solid black;
+}
+.boxgroup{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top: 600px-50%;
+  transform: translate(-50%, -50%);
+}
+.box{
+  color: white;
+  display: inline-block;
+  background: #000;
+  text-align: center;
+ /* padding: 0px 10px 0px 10px; */
+  /* margin: 0 auto; */
+  margin: 4px 4px;
+  height: 200px; 
+  line-height: 200px; 
+  width: 200px;
+}
+.box p{
+	display: inline;
+}
